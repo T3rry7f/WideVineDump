@@ -251,12 +251,12 @@ def on_message(message, data):
         #print(message)
         #print(hex(len(data)))%
         if(message['payload']=='Audio'):
-            f=open('a.aac','ab')   //save the acc stream to file.
+            f=open('a.aac','ab')   #save the acc stream to file.
             f.write(data)
             f.close()
         elif (message['payload']=='Video'):
-            #yuv420p_to_mp4(data,720,404,832,8) //compress the yuv420p stream with x264.
-            f=open('v.yuv','ab')   //save the decoded yuv stream to file.
+            #yuv420p_to_mp4(data,720,404,832,8) #compress the yuv420p stream with x264.
+            f=open('v.yuv','ab')   #save the decoded yuv stream to file.
             f.write(data);
             f.close()
 
