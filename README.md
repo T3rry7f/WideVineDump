@@ -1,5 +1,5 @@
 # WideVineDump
-Dump audio and video steam from  Widevine Level 3 with a frida script .
+Dump audio and video streams from  Widevine Level 3 with a frida script .
 
 # Notice:
 
